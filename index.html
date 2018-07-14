@@ -5,6 +5,7 @@
     <title>Crystals Collector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
@@ -21,29 +22,31 @@
         <!-- Random number and win/loss counter -->
         <div class="row">
             <div class="col-md-8" id="randomNumber">
-                33
             </div>
             <div class="col-md-4" id="gameStats">
-                Wins:  Losses: 
+                <h3>Wins: <span id="win"></span></h3>
+                <h3>Losses: <span id="loss"></span></h3>
             </div>
-            </div>
+        </div>
 
         <!-- 4 crystals -->
-        <div id="crystals">
-            4
-        </div>            
+        <div class="row">
+            <div class="col-md-12" id="crystals">
+            </div>            
+        </div>
 
         <!-- User's score counter -->
-        <h4>Your total score is:</h4>
-        <div id="userScore">
-            0
+        <div class="row">
+            <div class="col-md-12" id="totalScore">
+            <h4>Your total score is: <span id="userScore"></span></h4>
+            </div>
         </div>
 
     </div>
 
 <!-- Links to jQuery and JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="assets/javascript/game.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>

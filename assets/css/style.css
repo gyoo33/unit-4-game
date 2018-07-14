@@ -12,6 +12,18 @@ h1 {
     text-align: center;    
 }
 
-p {
+p, h4, #randomNumber {
     font-size: 20px;
+}
+
+#totalScore {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.crystalImage {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
 }
