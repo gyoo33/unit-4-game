@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crystals Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Crystals Collector!</h1>
+
+        <!-- Game Instructions -->
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+        <!-- Random number and win/loss counter -->
+        <div class="row">
+            <div class="col-md-8" id="randomNumber">
+                33
+            </div>
+            <div class="col-md-4" id="gameStats">
+                Wins:  Losses: 
+            </div>
+            </div>
+
+        <!-- 4 crystals -->
+        <div id="crystals">
+            4
+        </div>            
+
+        <!-- User's score counter -->
+        <h4>Your total score is:</h4>
+        <div id="userScore">
+            0
+        </div>
+
+    </div>
+
+<!-- Links to jQuery and JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

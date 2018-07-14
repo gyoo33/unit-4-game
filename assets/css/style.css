@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+h1 {
+    text-align: center;    
+}
+
+p {
+    font-size: 20px;
+}
